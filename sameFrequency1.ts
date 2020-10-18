@@ -1,5 +1,7 @@
-// Write a function called sameFrequency. Given two positive integers,
-//  find out if the two numbers have the same frequency of digits.
+// Given two arrays, check to make sure that there is the same frequency
+//  of numbers in the first array as there are numbers^2 in the second array
+//  ie. [1,2,3,3] -> [9, 1, 4, 9] true
+//      [1,4,4] -> [1,1, 16] false
 //  Your solution MUST have the following complexities:
 //  Time: O(N)
 
