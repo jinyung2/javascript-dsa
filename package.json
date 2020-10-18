@@ -1,0 +1,26 @@
+{
+  "name": "javascript-dsa",
+  "version": "1.0.0",
+  "description": "Collection of data structure as I solve them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node $FILE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinyung2/javascript-dsa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinyung2/javascript-dsa/issues"
+  },
+  "homepage": "https://github.com/jinyung2/javascript-dsa#readme",
+  "dependencies": {
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
