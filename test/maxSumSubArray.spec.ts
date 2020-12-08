@@ -7,6 +7,7 @@ describe('Max Sum of Sub Array', () => {
     }),
     it('should return 11', () => {
         expect(maxSumSubArray([1,2,3,4,5,6], 2)).to.equal(11);
+        expect(maxSumSubArray([1,2,3,4,8,5,6], 2)).to.equal(13);
     }),
     it('should work with negatives', () => {
         expect(maxSumSubArray([-1,-2,-3,-4], 2)).to.equal(-3);
