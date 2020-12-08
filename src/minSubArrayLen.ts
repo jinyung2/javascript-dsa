@@ -14,7 +14,7 @@ export function minSubArrayLen(arr: number[], sum: number): number {
             total += arr[j++];
         } else if (total >= sum) {
             minLen = Math.min(minLen, j - i);
-            total -= arr[i++];
+            total -= arr[i];
         } else {
             break;
         }
