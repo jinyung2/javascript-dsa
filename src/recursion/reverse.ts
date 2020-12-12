@@ -1,7 +1,7 @@
 /**
- * 
- * @param str 
- * @param index 
+ * reverses a string using recursion
+ * @param str inputted string to be reversed
+ * @param index used for recursion logic, defaults to index 0
  */
 export function reverse(str: string, index: number = 0): string {
     if (index > Math.ceil(str.length/2) - 1) {
