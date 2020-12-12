@@ -4,6 +4,9 @@
  * @param e element being searched for
  */
 export function binarySearch(arr: number[], e: number): number {
+    if (arr.length === 0) {
+        return -1;
+    }
     let i = 0;
     let j = arr.length - 1;
     while (i <= j) {

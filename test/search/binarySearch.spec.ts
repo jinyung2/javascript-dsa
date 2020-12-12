@@ -9,5 +9,8 @@ describe('Binary Search', () => {
     });
     it('should return -1 when not found', () => {
         expect(binarySearch([1,2,3,4,5], 6)).to.equal(-1);
+    });
+    it('should return -1 when array is empty', () => {
+        expect(binarySearch([], 1)).to.equal(-1);
     })
 })
