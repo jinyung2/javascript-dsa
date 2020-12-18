@@ -6,6 +6,7 @@ describe('Knutt Morris Pratt Pattern Matching', () => {
         expect(KMPSearch('abcabc', 'abc')).to.equal(2);
         expect(KMPSearch('abcabababd', 'abc')).to.equal(1);
         expect(KMPSearch('aaaaaaaaaaa', 'aaa')).to.equal(9);
+        expect(KMPSearch('aaaaabaaaba', 'aaaa')).to.equal(2);
     });
     it('should return 0 when no search is found', () => {
         expect(KMPSearch('abcabababd', 'xyz')).to.equal(0);
